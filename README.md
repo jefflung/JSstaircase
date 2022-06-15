@@ -67,7 +67,7 @@ The staircase is right-aligned, composed of # symbols and spaces, and has a heig
 --------------------------------------------------------------------------------------------------
 
 Solution:
-
+```
 function staircase(n){
   for(let i = 0; i < n ; i++){
     const line = Array(i+1)
@@ -78,7 +78,7 @@ function staircase(n){
   }
 }
 console.log(staircase(6)); //Test 6 rows
-
+```
 Explanation:
 The result will be six times output of the function as I test with variable 6. The Array syntax set the length of # with fill and join sytax, 
 and padStart determine # starts from end of the row.
