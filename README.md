@@ -80,5 +80,5 @@ function staircase(n){
 console.log(staircase(6)); //Test 6 rows
 ```
 Explanation:
-The result will be six times output of the function as I test with variable 6. The Array syntax set the length of # with fill and join sytax, 
+By using for loop, the result will be six times output of the function as I test with variable 6. The Array syntax set the length of # with fill and join sytax, 
 and padStart determine # starts from end of the row.
